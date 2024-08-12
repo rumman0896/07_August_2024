@@ -212,6 +212,28 @@ body{
     height:270px;
     
  }
+ .image-btn-container{
+    position:absolute;
+    top:105px;
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+    
+  }
+  .slider-btn{
+    border:1.5px solid transparent;
+    padding:100px 20px;
+    font-size:45px;
+    font-weight:300px;
+    background-color:transparent;
+    border-radius:4px;
+  }
+  .slider-btn:focus{
+    border-color:#008296;
+    box-shadow: 2px 2px white,
+    -2px -2px white;
+    border-radius:4px;
+  }
 
 /**shop section**/
 .shoping-boxes{
