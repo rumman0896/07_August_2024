@@ -357,8 +357,11 @@ body{
     align-items:center;
 }
 .footer1-text{
-  color:white;
   font-size:.9rem;
+}
+.footer1-text a{
+    color:white;
+    text-decoration:none;
 }
 .footer1:hover{
     background-color:#516175;
